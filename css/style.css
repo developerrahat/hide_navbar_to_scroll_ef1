@@ -1,0 +1,31 @@
+body{
+    height: 1200px;
+    background: grey;
+}
+
+.header{
+    background: #b6ff0a;
+    padding: 10px 0;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 10px 2px rgb(10, 2, 29, .4);
+
+    
+}
+
+/* .white{
+    padding: 0;
+    box-shadow: 0 0 10px 2px rgb(10, 2, 29, .4);
+    
+} */
+
+.scrollUp{
+    transform: translateY(-150px);
+    opacity: 0;
+}
+
+
+
